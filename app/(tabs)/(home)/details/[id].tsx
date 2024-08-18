@@ -6,7 +6,7 @@ export default function DetailsScreen() {
 
   return (
     <View style={styles.container}>
-      <Text>Details of user {id} </Text>
+      <Text style={styles.text}>Details of user {id} </Text>
     </View>
   );
 }
@@ -16,5 +16,10 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
+  },
+  text: {
+    fontFamily: "Caveat_700Bold",
+    color: "blue",
+    fontSize: 44,
   },
 });

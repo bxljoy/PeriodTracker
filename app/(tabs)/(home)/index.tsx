@@ -5,7 +5,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 export default function HomeScreen() {
   return (
     <SafeAreaView style={styles.container}>
-      <Text>Tab[Home]</Text>
+      <Text style={styles.text}>Tab[Home]</Text>
       <Link
         href={{
           pathname: "/details/[id]",
@@ -32,5 +32,9 @@ const styles = StyleSheet.create({
     padding: 10,
     borderRadius: 10,
     borderColor: "blue",
+  },
+  text: {
+    fontFamily: "Bungee_400Regular",
+    color: "red",
   },
 });

@@ -3,7 +3,7 @@ import { View, Text, StyleSheet } from "react-native";
 export default function SettingsScreen() {
   return (
     <View style={styles.container}>
-      <Text>Tab [Home|Settings]</Text>
+      <Text style={styles.text}>Tab [Home|Settings]</Text>
     </View>
   );
 }
@@ -13,5 +13,9 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
+  },
+  text: {
+    fontFamily: "Bungee_400Regular",
+    color: "red",
   },
 });

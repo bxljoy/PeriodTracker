@@ -15,6 +15,9 @@
     "preset": "jest-expo"
   },
   "dependencies": {
+    "@expo-google-fonts/bungee": "^0.2.3",
+    "@expo-google-fonts/caveat": "^0.2.3",
+    "@expo-google-fonts/inter": "^0.2.3",
     "@expo/vector-icons": "^14.0.2",
     "@react-navigation/drawer": "^6.7.2",
     "@react-navigation/native": "^6.0.2",
