@@ -15,7 +15,9 @@ export default function HomeScreen() {
       >
         View user details
       </Link>
-      <Link href="/modal">Present modal</Link>
+      <Link href="/modal" style={styles.link}>
+        Present modal
+      </Link>
     </SafeAreaView>
   );
 }
